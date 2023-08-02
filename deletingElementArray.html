@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="delete" placeholder="enter delete position" />
+    <button onclick="deleteMe()">delete</button>
+    <script>
+        function deleteMe() {
+            let data = [1,4,6,2,8];
+        let pos = document.getElementById('delete').value;
+        console.log(data);
+        pos = parseInt(pos);
+        for(let i=pos; i<data.length; i++){
+            // console.log(data);
+            data[i] = data[i + 1];
+        }
+        data.length = data.length -1;
+        console.log(data);
+        }
+        
+    </script>
+</body>
+</html>
