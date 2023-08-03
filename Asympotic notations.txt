@@ -1,0 +1,33 @@
+Data Structure and Algorithm
+
+	1. Array Traversal
+	2. Array accessing
+	3. Array Inserting
+	4. Searching Array
+	5. Deleting Array
+	6. Merge Two Arrays
+	
+Time Complexity and Space Complexity -
+Formula - f(n) = 5n2 + 6n + 12
+
+What is Asympotic Analysis?
+-> Asympotic analysis is used to analyze the problem and find which soultion is better for the given problems.
+
+Example - 
+If I have 1000 array of set then in this case linear search is the good approach.
+If I have 1000000 array of set then in this case binary search is the good approach.
+
+Reference point - https://www.javatpoint.com/data-structure-tutorial
+
+
+Array Sorting with Algorithm
+
+1. Bubble Sorting -
+example - 
+data = [8,4,1,6,5,10];
+
+// Bubble Sorting
+step1- [4,8,1,5,6,10]
+step2 - [4,1,5,6,10]
+step3 = [4,1,5,6,10]
+step4 = [1,4,5,6,10] - >sorted.
