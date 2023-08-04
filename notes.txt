@@ -61,4 +61,9 @@ pop()
 [5 | 4 | 3 | 2 | 1]
 first poped - 5
 
-
+//Queue
+Queue is a linear data structure which as follow basic Traversal to perform operation as mention below.
+Queue workds on principle as First In First Out[FIFO].
+1. Traversal can be basic.
+2. data can be inserted from front and rear side. it means data can be inserted fron start and end both
+ways.
