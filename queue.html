@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data =[];
+let curSize = data.length;
+let maxSize = 5;
+
+function enqueue(newVal){
+    if(curSize >= maxSize){
+        console.log("Stack is full");
+    } else {
+        data[curSize] = newVal;
+        curSize++;
+    }
+}
+
+function dequeue(){
+    if(isEmpty()){
+        // console.log("stack is empty");
+        alert("stack is empty");
+    } else {
+        curSize--;
+        data.length = curSize;
+    }
+}
+
+function isEmpty(){
+    if(curSize <= 0){
+        return true;
+    }else {
+        return false;
+    }
+}
+
+function display(){
+    console.log(data);
+}
+
+enqueue(1);
+enqueue(3);
+enqueue(5);
+// dequeue();
+// dequeue();
+// dequeue();
+// dequeue();
+display();
+    </script>
+</body>
+</html>
